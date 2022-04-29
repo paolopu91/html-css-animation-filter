@@ -71,15 +71,14 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
-    transition: filter 2s, width 2s, border-radius 2s;
+    transition: filter 2s, transform 2s, border-radius 2s;
     
 }
 .ex-9-img:hover{
     filter: sepia(.5);
     filter: grayscale(1);
-    width: 600px;
     border-radius: 30px;
-    margin: 0;
+    transform: scale(1.5);
 }
 .ex-10-icon {
     font-size: 60px;
